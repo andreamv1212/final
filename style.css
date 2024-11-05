@@ -8,7 +8,7 @@ body {
     background-color: #0056A5;
     color: white;
     padding: 10px 20px;
-    text-align: center;
+    text-align:left;
 }
 .nav {
     background-color: #0056A5;
@@ -22,8 +22,10 @@ body {
     font-weight: bold;
 }
 .content {
-    text-align: center;
+    text-align:center;
     padding: 50px;
+   
+   
 }
 .content h1 {
     font-size: 2.5em;
@@ -145,7 +147,7 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .section {
         padding: 15px;
     }
@@ -214,7 +216,19 @@ h1 {
     .column {
         width: 90%;
     }
+    
 }
+@media (min-width: 1024px){
+.speaker{
+    display: flex;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+}
+
 .invitados{
-color: #0033a0;
-}
+    color: #0033a0;
+    }
